@@ -40,7 +40,7 @@ Oracle Instant Client (for thick mode)
 
 Installation
 bash# Clone the repo
-git clone https://github.com/YOUR_USERNAME/medicore-hms.git
+git clone https://github.com/YOUR_USERNAME/DB-PROJECT-HOSPITAL-MANAGEMENT-SYSTEM.git
 cd medicore-hms
 
 # Install Python dependencies
@@ -52,12 +52,13 @@ DB_PASS = "hr"
 DB_DSN  = "localhost:1521/XE"
 
 # Start the backend
-python app.py
+python project12.py
 
 # Open the frontend
 # Just open medicore.html in your browser — no build step needed
 
 📁 Project Structure
+
 medicore-hms/
 ├── latestweb.html      # Entire frontend — single file SPA
 ├── project12.py             # Flask REST API — all 20+ endpoints
