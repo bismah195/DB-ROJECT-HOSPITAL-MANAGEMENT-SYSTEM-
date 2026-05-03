@@ -2,6 +2,8 @@
 A production-grade Hospital Management System · CS-2005 Database Systems · FAST NUCES Karachi
 MediCore is a full-stack web application that demonstrates advanced database concepts through a real-world hospital workflow. The frontend is a single-page app with 13 modules, the backend is a REST API in Flask, and all data lives in Oracle XE with triggers, stored procedures, and concurrency constraints enforced at the database level.
 
+
+
 ✨ Features
 
 Role-Based Access Control — Admin, Doctor, Nurse, and Accountant roles each see a tailored interface
@@ -19,8 +21,11 @@ Dark Mode — Full light/dark theme toggle
 Global Search — Instant search across patients and doctors
 
 
+
 🛠 Tech Stack
 LayerTechnologyFrontendHTML5, CSS3, Vanilla JavaScript (single file, no frameworks)BackendPython 3, Flask, Flask-CORSDatabaseOracle XE 11g / 21cORM / Driveroracledb (python-oracledb, thick mode)
+
+
 
 🗄 Database Concepts Demonstrated
 
@@ -29,6 +34,7 @@ Stored Procedures — PROC_PATIENT_DISCHARGE handles cascading updates across ap
 Concurrency Control — SELECT FOR UPDATE with uq_doctor_timeslot constraint prevents double-booking under concurrent load
 Views & Joins — Multi-table queries across patient, doctor, department, appointment, invoice, and lab_test
 Sequences & Constraints — Primary keys, foreign keys, unique constraints enforced at DB level
+
 
 
 🚀 Getting Started
@@ -57,13 +63,17 @@ python project12.py
 # Open the frontend
 # Just open medicore.html in your browser — no build step needed
 
+
+
 📁 Project Structure
 
 medicore-hms/
-├── latestweb.html      # Entire frontend — single file SPA
-├── project12.py             # Flask REST API — all 20+ endpoints
-├── dbfinal.sql         # Oracle DDL — tables, sequences, constraints    
+├── latestweb.html     
+├── project12.py            
+├── dbfinal.sql          
 └── README.md
+
+
 
 👨‍💻 Authors
 Built as a semester project for CS-2005 Database Systems at FAST NUCES Karachi.
